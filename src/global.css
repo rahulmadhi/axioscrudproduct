@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size:20px;
+  
+}
+nav , a{
+    color: white;
+}
+
+
+fieldset > legend , label , button{
+
+    text-align: center;
+}
+
+form{
+    text-align: center;
+}
+
+nav{
+  
+    height: 90px;
+    background-color: darkgoldenrod;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ol{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.mainblock{
+   
+    width: 95vw;
+    height: 75px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img{
+    height: 79px;
+    width: 99px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.productContainer{
+  border: 2px solid darkgoldenrod;
+    height: 200px;
+    width: 300px;
+}
+
+.productBlock{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+
+h2{
+    text-align: center;
+}
+
+center{
+
+  
+    display: flex;
+    justify-content: space-around;
+}
+
+#avatar{
+   
+    display: flex;
+    justify-content: space-around;
+   
+}
